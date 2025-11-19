@@ -1,0 +1,15 @@
+/data7/yeonsungkim/DeepUMQA-main/deepUMQA/utils.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/data7/yeonsungkim/DeepUMQA-main/DeepUMQA.py", line 314, in <module>
+    main()
+  File "/data7/yeonsungkim/DeepUMQA-main/DeepUMQA.py", line 193, in main
+    checkpoint = torch.load(join(modelpath, modelname), map_location=device)
+  File "/data7/yeonsungkim/.conda/envs/deepumqa_bw/lib/python3.10/site-packages/torch/serialization.py", line 1479, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/data7/yeonsungkim/.conda/envs/deepumqa_bw/lib/python3.10/site-packages/torch/serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/data7/yeonsungkim/.conda/envs/deepumqa_bw/lib/python3.10/site-packages/torch/serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/data7/yeonsungkim/DeepUMQA-main/model/DeepUMQA/best.pkl'
+srun: error: n04: task 0: Exited with exit code 1

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 251, in <module>
+    main()
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 241, in main
+    make_pyrosetta_decoy(
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 136, in make_pyrosetta_decoy
+    small.score_function(scorefxn)
+AttributeError: 'pyrosetta.rosetta.protocols.simple_moves.SmallMove' object has no attribute 'score_function'

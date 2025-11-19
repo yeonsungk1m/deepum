@@ -1,0 +1,12 @@
+[OK] 1a1x_A: 1a1x_A_01.pdb 생성
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+[OK] 1a1x_A: 1a1x_A_02.pdb 생성 (T=1.0, cycles=2, moves=100)
+[OK] 1a1x_A: 1a1x_A_03.pdb 생성 (T=2.0, cycles=5, moves=200)

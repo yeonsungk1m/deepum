@@ -1,0 +1,9 @@
+*.pdb
+*.pkl
+*.npz
+*.npy
+data/
+checkpoints/
+result/
+*.sh
+.txt

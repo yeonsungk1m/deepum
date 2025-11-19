@@ -1,0 +1,12 @@
+/bin/sh: 1: hhblits: not found
+
+Traceback (most recent call last):
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 298, in <module>
+    main()
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 273, in main
+    msa_path = prepare_msa(target, fasta, msa_dir, hhdb=args.hhdb, mmseqs_db=args.mmseqs_db, threads=args.threads)
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 136, in prepare_msa
+    run(cmd)
+  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 21, in run
+    raise RuntimeError(f"Command failed: {cmd}")
+RuntimeError: Command failed: hhblits -i "data/msa/1a1x_A.fa" -oa3m "data/msa/1a1x_A.a3m" -d "/data7/yeonsungkim/DeepUMQA-main/data/db/uniclust30_2018_08/uniclust30_2018_08" -n 3 -e 1e-3 -maxfilt 500000 -neffmax 20 -cov 0.5 -qid 0 -cpu 2

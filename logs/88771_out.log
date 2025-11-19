@@ -1,0 +1,567 @@
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0950/T0950_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0950/T0950_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0950/T0950_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0950/T0950_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0950/T0950_029.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0951/T0951_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0951/T0951_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0951/T0951_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0951/T0951_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0951/T0951_029.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s1/T0953s1_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s1/T0953s1_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s1/T0953s1_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s1/T0953s1_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s1/T0953s1_030.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s2/T0953s2_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s2/T0953s2_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s2/T0953s2_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s2/T0953s2_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0953s2/T0953s2_029.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0954/T0954_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0954/T0954_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0954/T0954_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0954/T0954_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0954/T0954_031.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0955/T0955_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0955/T0955_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0955/T0955_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0955/T0955_030.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s1/T0957s1_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s1/T0957s1_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s1/T0957s1_034.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s1/T0957s1_035.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s1/T0957s1_032.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s2/T0957s2_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s2/T0957s2_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s2/T0957s2_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s2/T0957s2_035.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0957s2/T0957s2_034.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0958/T0958_032.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0958/T0958_035.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0958/T0958_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0958/T0958_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0958/T0958_034.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0960/T0960_034.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0960/T0960_033.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0960/T0960_035.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0960/T0960_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T0960/T0960_032.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1024/T1024_027.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1024/T1024_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1024/T1024_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1024/T1024_028.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1025/T1025_031.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1026/T1026_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1026/T1026_027.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1026/T1026_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1026/T1026_030.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1027/T1027_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1027/T1027_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1027/T1027_031.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1029/T1029_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1029/T1029_028.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1029/T1029_027.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1030/T1030_028.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1030/T1030_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1030/T1030_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1030/T1030_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1030/T1030_027.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1032/T1032_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1032/T1032_027.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1032/T1032_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1032/T1032_031.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1033/T1033_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1033/T1033_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1033/T1033_030.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1035/T1035_028.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1035/T1035_029.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1035/T1035_031.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1035/T1035_030.features.npz: need at least one array to stack
+While processing /data7/yeonsungkim/DeepUMQA-main/data/train/features_casp/T1035/T1035_027.features.npz: need at least one array to stack
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org

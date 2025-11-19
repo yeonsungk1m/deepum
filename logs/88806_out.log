@@ -1,0 +1,554 @@
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                  PyRosetta-4                                  │
+│               Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│               (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                               │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │
+│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└───────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python310.ubuntu 2025.45+release.d79cb06334818403e40289334138fb126753c253 2025-11-04T12:19:41] retrieved from: http://www.pyrosetta.org
+# samples: 184
+Featurizing 184 samples. 0 are re-processed.
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_069.pdb (5.95 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_150.pdb (2.08 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_071.pdb (1.96 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_130.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_149.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_142.pdb (1.79 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_095.pdb (2.64 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_008.pdb (1.99 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_125.pdb (2.37 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_144.pdb (2.38 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_173.pdb (2.45 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_094.pdb (2.69 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_153.pdb (2.09 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_107.pdb (1.75 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_100.pdb (2.20 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_116.pdb (2.10 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_133.pdb (2.45 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_174.pdb (2.05 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_117.pdb (2.45 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_086.pdb (2.30 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_106.pdb (1.63 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_101.pdb (2.18 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_035.pdb (2.27 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/native.pdb (2.07 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_132.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_041.pdb (1.94 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_072.pdb (1.89 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_162.pdb (2.49 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_046.pdb (2.33 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_118.pdb (2.19 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_051.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_059.pdb (1.92 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_172.pdb (2.45 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_091.pdb (2.52 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_027.pdb (2.27 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_111.pdb (2.79 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_103.pdb (1.75 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_168.pdb (2.59 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_128.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_179.pdb (1.77 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_183.pdb (1.89 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_005.pdb (1.78 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_043.pdb (1.96 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_021.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_001.pdb (1.90 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_160.pdb (2.24 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_010.pdb (1.97 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_156.pdb (2.23 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_178.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_165.pdb (2.43 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_112.pdb (2.76 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_062.pdb (2.06 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_148.pdb (2.37 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_181.pdb (1.77 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_157.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_166.pdb (2.37 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_012.pdb (2.35 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_085.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_038.pdb (2.09 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_018.pdb (2.18 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_076.pdb (2.44 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_067.pdb (2.12 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_170.pdb (2.57 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_136.pdb (1.92 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_159.pdb (2.49 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_164.pdb (2.37 seconds)
+While processing /data7/yeonsungkim/DeepUMQA-main/result/T0950_032.features.npz: need at least one array to stack
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_089.pdb (1.71 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_105.pdb (1.62 seconds)
+While processing /data7/yeonsungkim/DeepUMQA-main/result/T0950_031.features.npz: need at least one array to stack
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_074.pdb (2.48 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_147.pdb (2.36 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_152.pdb (0.95 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_070.pdb (2.06 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_163.pdb (2.13 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_055.pdb (2.94 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_023.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_129.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_090.pdb (1.75 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_057.pdb (2.11 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_110.pdb (2.93 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_137.pdb (1.95 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_002.pdb (1.91 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_124.pdb (2.24 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_068.pdb (2.03 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_036.pdb (2.11 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_127.pdb (2.34 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_081.pdb (0.32 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_013.pdb (2.17 seconds)
+While processing /data7/yeonsungkim/DeepUMQA-main/result/T0950_029.features.npz: need at least one array to stack
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_131.pdb (2.29 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_019.pdb (2.27 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_060.pdb (2.08 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_080.pdb (0.33 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_016.pdb (2.29 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_015.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_109.pdb (2.90 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_026.pdb (2.21 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_007.pdb (1.90 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_180.pdb (1.96 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_024.pdb (2.22 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_011.pdb (2.37 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_020.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_141.pdb (2.01 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_154.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_143.pdb (1.93 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_058.pdb (2.31 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_114.pdb (2.36 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_102.pdb (2.20 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_014.pdb (2.29 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_025.pdb (2.05 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_182.pdb (1.89 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_092.pdb (2.10 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_158.pdb (1.80 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_104.pdb (1.62 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_135.pdb (2.08 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_044.pdb (2.27 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_054.pdb (2.72 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_121.pdb (2.19 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_139.pdb (1.89 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_120.pdb (2.24 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_175.pdb (2.21 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_017.pdb (2.18 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_115.pdb (2.74 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_145.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_047.pdb (2.29 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_079.pdb (0.33 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_099.pdb (2.20 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_064.pdb (2.12 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_061.pdb (1.98 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_119.pdb (2.08 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_053.pdb (2.46 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_087.pdb (2.21 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_075.pdb (2.24 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_084.pdb (2.17 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_082.pdb (0.34 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_126.pdb (2.31 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_049.pdb (2.20 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_093.pdb (2.68 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_078.pdb (0.33 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_113.pdb (2.39 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_066.pdb (2.12 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_134.pdb (2.15 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_063.pdb (2.12 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_052.pdb (2.11 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_097.pdb (2.23 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_028.pdb (2.27 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_176.pdb (2.10 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_003.pdb (1.93 seconds)
+While processing /data7/yeonsungkim/DeepUMQA-main/result/T0950_033.features.npz: need at least one array to stack
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_123.pdb (2.33 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_138.pdb (1.71 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_146.pdb (2.38 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_088.pdb (2.19 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_004.pdb (1.93 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_006.pdb (1.94 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_034.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_122.pdb (2.24 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_096.pdb (1.62 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_040.pdb (2.03 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_045.pdb (2.13 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_039.pdb (1.97 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_022.pdb (2.26 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_161.pdb (2.25 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_042.pdb (2.07 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_155.pdb (2.26 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_169.pdb (2.16 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_048.pdb (2.30 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_009.pdb (2.15 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_108.pdb (2.86 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_037.pdb (2.21 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_140.pdb (2.16 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_065.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_083.pdb (2.15 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_098.pdb (2.19 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_151.pdb (1.98 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_077.pdb (2.43 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_050.pdb (2.00 seconds)
+While processing /data7/yeonsungkim/DeepUMQA-main/result/T0950_030.features.npz: need at least one array to stack
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_171.pdb (2.43 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_073.pdb (2.39 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_177.pdb (2.14 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_056.pdb (2.19 seconds)
+Processed /data7/yeonsungkim/DeepUMQA-main/data/decoys_casp/T0950/T0950_167.pdb (2.22 seconds)
+using /data7/yeonsungkim/DeepUMQA-main/model/DeepUMQA
+Predicting for T0950_069
+Predicting for T0950_150
+Predicting for T0950_071
+Predicting for T0950_130
+Predicting for T0950_149
+Predicting for T0950_142
+Predicting for T0950_095
+Predicting for T0950_008
+Predicting for T0950_125
+Predicting for T0950_144
+Predicting for T0950_173
+Predicting for T0950_094
+Predicting for T0950_153
+Predicting for T0950_107
+Predicting for T0950_100
+Predicting for T0950_116
+Predicting for T0950_133
+Predicting for T0950_174
+Predicting for T0950_117
+Predicting for T0950_086
+Predicting for T0950_106
+Predicting for T0950_101
+Predicting for T0950_035
+Predicting for native
+Predicting for T0950_132
+Predicting for T0950_041
+Predicting for T0950_072
+Predicting for T0950_162
+Predicting for T0950_046
+Predicting for T0950_118
+Predicting for T0950_051
+Predicting for T0950_059
+Predicting for T0950_172
+Predicting for T0950_091
+Predicting for T0950_027
+Predicting for T0950_111
+Predicting for T0950_103
+Predicting for T0950_168
+Predicting for T0950_128
+Predicting for T0950_179
+Predicting for T0950_183
+Predicting for T0950_005
+Predicting for T0950_043
+Predicting for T0950_021
+Predicting for T0950_001
+Predicting for T0950_160
+Predicting for T0950_010
+Predicting for T0950_156
+Predicting for T0950_178
+Predicting for T0950_165
+Predicting for T0950_112
+Predicting for T0950_062
+Predicting for T0950_148
+Predicting for T0950_181
+Predicting for T0950_157
+Predicting for T0950_166
+Predicting for T0950_012
+Predicting for T0950_085
+Predicting for T0950_038
+Predicting for T0950_018
+Predicting for T0950_076
+Predicting for T0950_067
+Predicting for T0950_170
+Predicting for T0950_136
+Predicting for T0950_159
+Predicting for T0950_164
+Predicting for T0950_089
+Predicting for T0950_105
+Predicting for T0950_074
+Predicting for T0950_147
+Predicting for T0950_152
+Predicting for T0950_070
+Predicting for T0950_163
+Predicting for T0950_055
+Predicting for T0950_023
+Predicting for T0950_129
+Predicting for T0950_090
+Predicting for T0950_057
+Predicting for T0950_110
+Predicting for T0950_137
+Predicting for T0950_002
+Predicting for T0950_124
+Predicting for T0950_068
+Predicting for T0950_036
+Predicting for T0950_127
+Predicting for T0950_081
+Predicting for T0950_013
+Predicting for T0950_131
+Predicting for T0950_019
+Predicting for T0950_060
+Predicting for T0950_080
+Predicting for T0950_016
+Predicting for T0950_015
+Predicting for T0950_109
+Predicting for T0950_026
+Predicting for T0950_007
+Predicting for T0950_180
+Predicting for T0950_024
+Predicting for T0950_011
+Predicting for T0950_020
+Predicting for T0950_141
+Predicting for T0950_154
+Predicting for T0950_143
+Predicting for T0950_058
+Predicting for T0950_114
+Predicting for T0950_102
+Predicting for T0950_014
+Predicting for T0950_025
+Predicting for T0950_182
+Predicting for T0950_092
+Predicting for T0950_158
+Predicting for T0950_104
+Predicting for T0950_135
+Predicting for T0950_044
+Predicting for T0950_054
+Predicting for T0950_121
+Predicting for T0950_139
+Predicting for T0950_120
+Predicting for T0950_175
+Predicting for T0950_017
+Predicting for T0950_115
+Predicting for T0950_145
+Predicting for T0950_047
+Predicting for T0950_079
+Predicting for T0950_099
+Predicting for T0950_064
+Predicting for T0950_061
+Predicting for T0950_119
+Predicting for T0950_053
+Predicting for T0950_087
+Predicting for T0950_075
+Predicting for T0950_084
+Predicting for T0950_082
+Predicting for T0950_126
+Predicting for T0950_049
+Predicting for T0950_093
+Predicting for T0950_078
+Predicting for T0950_113
+Predicting for T0950_066
+Predicting for T0950_134
+Predicting for T0950_063
+Predicting for T0950_052
+Predicting for T0950_097
+Predicting for T0950_028
+Predicting for T0950_176
+Predicting for T0950_003
+Predicting for T0950_123
+Predicting for T0950_138
+Predicting for T0950_146
+Predicting for T0950_088
+Predicting for T0950_004
+Predicting for T0950_006
+Predicting for T0950_034
+Predicting for T0950_122
+Predicting for T0950_096
+Predicting for T0950_040
+Predicting for T0950_045
+Predicting for T0950_039
+Predicting for T0950_022
+Predicting for T0950_161
+Predicting for T0950_042
+Predicting for T0950_155
+Predicting for T0950_169
+Predicting for T0950_048
+Predicting for T0950_009
+Predicting for T0950_108
+Predicting for T0950_037
+Predicting for T0950_140
+Predicting for T0950_065
+Predicting for T0950_083
+Predicting for T0950_098
+Predicting for T0950_151
+Predicting for T0950_077
+Predicting for T0950_050
+Predicting for T0950_171
+Predicting for T0950_073
+Predicting for T0950_177
+Predicting for T0950_056
+Predicting for T0950_167
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_069.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_150.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_071.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_130.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_149.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_142.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_095.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_008.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_125.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_144.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_173.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_094.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_153.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_107.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_100.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_116.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_133.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_174.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_117.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_086.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_106.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_101.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_035.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/native.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_132.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_041.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_072.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_162.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_046.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_118.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_051.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_059.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_172.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_091.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_027.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_111.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_103.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_168.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_128.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_179.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_183.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_005.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_043.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_021.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_001.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_160.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_010.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_156.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_178.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_165.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_112.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_062.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_148.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_181.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_157.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_166.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_012.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_085.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_038.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_018.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_076.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_067.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_170.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_136.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_159.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_164.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_089.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_105.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_074.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_147.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_152.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_070.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_163.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_055.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_023.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_129.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_090.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_057.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_110.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_137.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_002.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_124.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_068.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_036.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_127.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_081.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_013.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_131.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_019.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_060.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_080.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_016.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_015.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_109.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_026.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_007.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_180.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_024.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_011.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_020.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_141.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_154.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_143.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_058.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_114.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_102.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_014.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_025.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_182.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_092.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_158.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_104.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_135.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_044.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_054.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_121.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_139.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_120.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_175.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_017.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_115.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_145.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_047.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_079.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_099.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_064.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_061.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_119.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_053.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_087.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_075.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_084.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_082.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_126.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_049.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_093.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_078.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_113.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_066.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_134.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_063.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_052.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_097.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_028.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_176.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_003.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_123.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_138.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_146.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_088.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_004.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_006.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_034.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_122.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_096.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_040.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_045.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_039.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_022.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_161.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_042.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_155.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_169.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_048.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_009.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_108.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_037.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_140.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_065.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_083.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_098.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_151.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_077.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_050.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_171.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_073.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_177.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_056.features.npz
+Removing /data7/yeonsungkim/DeepUMQA-main/result/T0950_167.features.npz
