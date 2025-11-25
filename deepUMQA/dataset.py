@@ -4,6 +4,9 @@ import numpy as np
 from os.path import join, isfile, isdir
 from os import listdir
 
+from deepUMQA.featurize import parsePDB, process_from_pose
+from pyrosetta import Pose, pose_from_file
+
 class DecoyDataset(Dataset):
     def __init__(self,
                  targets,
@@ -15,7 +18,8 @@ class DecoyDataset(Dataset):
                  verbose         = False,
                  include_native  = True,
                  distance_cutoff = 0,
-                 features        = []
+                 features        = [],
+                 use_pdb_runtime = False
                 ):
 
         self.datadir = root_dir
@@ -27,6 +31,7 @@ class DecoyDataset(Dataset):
         self.multi_dir = multi_dir
         self.root_dirs = root_dirs
         self.features = features
+        self.use_pdb_runtime = use_pdb_runtime
 
         self.n = {}
         self.samples_dict = {}
@@ -38,13 +43,13 @@ class DecoyDataset(Dataset):
     
                 if not multi_dir:
                     path = join(self.datadir, p)
-                    sample_files = [join(path, f[:-13]) for f in listdir(path) if isfile(join(path, f)) and "features.npz" in f]
+                    sample_files = self._collect_samples(path)
                 else:
                     sample_files = []
                     for directory in root_dirs:
                         path = join(directory, p)
                         if isdir(path):
-                            sample_files += [join(path, f[:-13]) for f in listdir(path) if isfile(join(path, f)) and "features.npz" in f]
+                            sample_files += self._collect_samples(path)
                 
                 # Removing native if necessasry.
                 if not self.include_native:
@@ -56,7 +61,7 @@ class DecoyDataset(Dataset):
 
                 # If more than one sample exists
                 if len(samples) > 0:
-                    length = np.load(samples[0]+".features.npz")["tbt"].shape[-1]
+                    length = self._get_length(samples[0])
                     if length < self.lengthmax:
                         temp.append(p)
                         self.samples_dict[p] = samples
@@ -84,7 +89,7 @@ class DecoyDataset(Dataset):
         psize = self.sizes[pname]
 
         # data
-        data = np.load(sample+".features.npz")
+        data = self._load_features(sample)
         
         # 3D information
         idx = data["idx"]
@@ -107,7 +112,7 @@ class DecoyDataset(Dataset):
         sep = self.seqsep(psize)
         
         # Get truth
-        native = np.load(join(self.datadir,pname,"native.features.npz"))["tbt"][0]
+        native = self._load_features(join(self.datadir,pname,"native"))["tbt"][0]
         deviation, deviation_1hot = self.get_deviation((tbt[:,:,0], native), self.digits)
         
         # Get Transform input distance
@@ -138,6 +143,46 @@ class DecoyDataset(Dataset):
                   'mask': np.expand_dims(mask.astype(np.float32), 0)}
             
         return sample
+
+    def _collect_samples(self, path):
+        sample_files = []
+        for f in listdir(path):
+            full_path = join(path, f)
+            if not isfile(full_path):
+                continue
+            if f.endswith("features.npz"):
+                sample_files.append(join(path, f[:-13]))
+            elif self.use_pdb_runtime and f.endswith(".pdb"):
+                sample_files.append(join(path, f[:-4]))
+        return sample_files
+
+    def _get_length(self, sample):
+        npz_path = sample + ".features.npz"
+        if isfile(npz_path):
+            return np.load(npz_path)["tbt"].shape[-1]
+
+        pdb_path = sample + ".pdb"
+        if self.use_pdb_runtime and isfile(pdb_path):
+            coords, _ = parsePDB(pdb_path)
+            return len(coords)
+
+        raise FileNotFoundError(f"Could not find feature or PDB file for sample {sample}")
+
+    def _load_features(self, sample):
+        npz_path = sample + ".features.npz"
+        if isfile(npz_path):
+            return np.load(npz_path)
+
+        if self.use_pdb_runtime:
+            pdb_path = sample + ".pdb"
+            if not isfile(pdb_path):
+                raise FileNotFoundError(f"Could not find PDB file for sample {sample}")
+
+            pose = Pose()
+            pose_from_file(pose, pdb_path)
+            return process_from_pose(pose)
+
+        raise FileNotFoundError(f"Could not find features.npz for sample {sample}")
 
     def dist_transform(self, X, cutoff=4, scaling=3.0):
         X_prime = np.maximum(X, np.zeros_like(X) + cutoff) - cutoff
