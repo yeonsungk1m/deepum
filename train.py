@@ -74,6 +74,11 @@ def main():
                         action="store_true",
                         default=False,
                         help="Debug mode (Default: False)")
+
+    parser.add_argument("--runtime_pdb",
+                        action="store_true",
+                        default=False,
+                        help="Featurize PDBs on the fly instead of loading precomputed .npz files")
     
     parser.add_argument("--silent",
                         "-s",
@@ -100,14 +105,16 @@ def main():
     if args.debug: proteins = proteins[:100]
     train_decoys = deepUMQA.DecoyDataset(targets = proteins,
                                            lengthmax = lengthmax,
-                                           multi_dir = args.multi_dir)
+                                           multi_dir = args.multi_dir,
+                                           use_pdb_runtime = args.runtime_pdb)
     train_dataloader = DataLoader(train_decoys, batch_size=1, shuffle=True, num_workers=4)
 
     proteins = np.load(join(base, "valid_decoys.npy"), allow_pickle=True)
     if args.debug: proteins = proteins[:100]
     valid_decoys = deepUMQA.DecoyDataset(targets = proteins,
                                            lengthmax = lengthmax,
-                                           multi_dir = args.multi_dir)
+                                           multi_dir = args.multi_dir,
+                                           use_pdb_runtime = args.runtime_pdb)
     valid_dataloader = DataLoader(valid_decoys, batch_size=1, shuffle=True, num_workers=4)
 
     if not args.silent: print("instantitate a model")
