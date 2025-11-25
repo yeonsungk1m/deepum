@@ -79,6 +79,16 @@ def main():
                         action="store_true",
                         default=False,
                         help="Featurize PDBs on the fly instead of loading precomputed .npz files")
+
+    parser.add_argument("--model_type",
+                        choices=["resnet", "graph"],
+                        default="resnet",
+                        help="Choose between the original ResNet model or the new graph-transformer")
+
+    parser.add_argument("--graph_neighbor_cutoff",
+                        type=float,
+                        default=10.0,
+                        help="Distance (Å) threshold on CB–CB map for graph edges when using the graph model")
     
     parser.add_argument("--silent",
                         "-s",
@@ -118,9 +128,23 @@ def main():
     valid_dataloader = DataLoader(valid_decoys, batch_size=1, shuffle=True, num_workers=4)
 
     if not args.silent: print("instantitate a model")
-    net = deepUMQA.myDeepUMQA(num_chunks   = args.num_blocks,
-                                num_channel  = args.num_filters,
-                                twobody_size = 33)
+
+    if args.model_type == "resnet":
+        net = deepUMQA.myDeepUMQA(num_chunks   = args.num_blocks,
+                                  num_channel  = args.num_filters,
+                                  twobody_size = 33)
+    else:
+        # Peek one sample to infer feature dimensions for the graph model
+        sample = train_decoys[0]
+        node_dim = sample["1d"].shape[-1]
+        pair_dim = sample["2d"].shape[1]
+        num_bins = len(train_decoys.digits) + 1
+        net = deepUMQA.GraphFeatureNet(
+            node_in_dim=node_dim,
+            pair_in_dim=pair_dim,
+            num_bins=num_bins,
+            neighbor_cutoff=args.graph_neighbor_cutoff,
+        )
     rdevreModel = False
     
     if isfile(join(name, "model.pkl")):
@@ -172,7 +196,7 @@ def main():
             f1d = f1d[0].to(device)
             f2d = f2d[0].to(device)
             dev_true = dev[0].to(device)
-            
+
             dev_1hot_true = dev_1hot[0].to(device)
             mask_true = mask[0].to(device)
 
@@ -180,8 +204,12 @@ def main():
             optimizer.zero_grad()
 
             # forward + backward + optimize
-            dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
-            lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
+            if args.model_type == "resnet":
+                dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
+                lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
+            else:
+                dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(f1d.unsqueeze(0), f2d.unsqueeze(0))
+                lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
             Esto_Loss = torch.nn.CrossEntropyLoss()
             Mask_Loss = torch.nn.BCEWithLogitsLoss()
             Lddt_Loss = torch.nn.MSELoss()
@@ -233,8 +261,12 @@ def main():
                     mask_true = mask[0].to(device)
 
                     # forward + backward + optimize
-                    dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
-                    lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
+                    if args.model_type == "resnet":
+                        dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
+                        lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
+                    else:
+                        dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(f1d.unsqueeze(0), f2d.unsqueeze(0))
+                        lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
 
                     Esto_Loss = torch.nn.CrossEntropyLoss()
                     Mask_Loss = torch.nn.BCEWithLogitsLoss()
