@@ -1,9 +1,22 @@
+# 데이터/체크포인트/결과물
+data/*
+!data/.gitkeep
+!data/README.md
+
+checkpoints/
+result/
+logs/
+
+# 대용량 바이너리/캐시
 *.pdb
 *.pkl
 *.npz
 *.npy
-data/
-checkpoints/
-result/
+*.zip
+
+# CSV는 상황 따라 선택
+logs/*.csv
+result/*.csv
+
+# 쉘 스크립트는 보통 버전관리하는 게 좋음 → 굳이 무시 X
 *.sh
-.txt
