@@ -875,6 +875,8 @@ def process_from_pose(pose):
         _2df, aas = extract_EnergyDistM(pose, energy_terms)
         _1df, _ = extractOneBodyTerms(pose)
         prop = extract_AAs_properties_ver1(aas)
+        usr = extract_USR(pose)
+        prop = np.vstack((prop, usr))
 
         output = {"idx": pdict['idx'],
                   "val": pdict['val'],

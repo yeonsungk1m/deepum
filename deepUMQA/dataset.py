@@ -10,9 +10,9 @@ from pyrosetta import Pose, pose_from_file
 class DecoyDataset(Dataset):
     def __init__(self,
                  targets,
-                 root_dir        = "/data7/yeonsungkim/DeepUMQA-main/data/train/features",
+                 root_dir        = "/data7/yeonsungkim/deepum/data/train/features",
                  multi_dir       = False,
-                 root_dirs       = ["/data7/yeonsungkim/DeepUMQA-main/data/train/features", "/data7/yeonsungkim/DeepUMQA-main/data/train/features"],
+                 root_dirs       = ["/data7/yeonsungkim/deepum/data/train/features", "/data7/yeonsungkim/deepum/data/train/features"],
                  lengthmax       = 300, 
                  digits          = [-20.0, -15.0, -10.0, -4.0, -2.0, -1.0, -0.5, 0.5, 1.0, 2.0, 4.0, 10.0, 15.0, 20.0],
                  verbose         = False,
