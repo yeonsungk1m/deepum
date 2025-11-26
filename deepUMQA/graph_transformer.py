@@ -325,7 +325,7 @@ class GraphFeatureNet(nn.Module):
         mlp_ratio: float = 1.0,
         dropout: float = 0.0,
         num_bins: int = 15,
-        neighbor_cutoff: float = 10.0,
+        neighbor_cutoff: float = 15.0,
         distance_cutoff: float = 4.0,
         distance_scaling: float = 3.0,
         use_distance_bias: bool = True,

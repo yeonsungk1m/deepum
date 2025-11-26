@@ -87,7 +87,7 @@ def main():
 
     parser.add_argument("--graph_neighbor_cutoff",
                         type=float,
-                        default=10.0,
+                        default=15.0,
                         help="Distance (Å) threshold on CB–CB map for graph edges when using the graph model")
 
     parser.add_argument("--graph_disable_voxel",
@@ -143,8 +143,9 @@ def main():
     else:
         # Peek one sample to infer feature dimensions for the graph model
         sample = train_decoys[0]
-        voxel_dim = deepUMQA.VOXEL_FEATURE_DIM if use_voxel else 0
-        node_dim = sample["1d"].shape[-1] + voxel_dim
+        # ``GraphFeatureNet`` concatenates voxel descriptors internally, so only pass
+        # the raw 1D feature width here to avoid double-counting the voxel dimension.
+        node_dim = sample["1d"].shape[-1]
         pair_dim = sample["2d"].shape[1]
         num_bins = len(train_decoys.digits) + 1
         net = deepUMQA.GraphFeatureNet(
