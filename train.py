@@ -89,6 +89,11 @@ def main():
                         type=float,
                         default=10.0,
                         help="Distance (Å) threshold on CB–CB map for graph edges when using the graph model")
+
+    parser.add_argument("--graph_disable_voxel",
+                        action="store_true",
+                        default=False,
+                        help="Disable concatenating pooled voxel descriptors into graph node features")
     
     parser.add_argument("--silent",
                         "-s",
@@ -129,6 +134,8 @@ def main():
 
     if not args.silent: print("instantitate a model")
 
+    use_voxel = not args.graph_disable_voxel
+
     if args.model_type == "resnet":
         net = deepUMQA.myDeepUMQA(num_chunks   = args.num_blocks,
                                   num_channel  = args.num_filters,
@@ -136,7 +143,8 @@ def main():
     else:
         # Peek one sample to infer feature dimensions for the graph model
         sample = train_decoys[0]
-        node_dim = sample["1d"].shape[-1]
+        voxel_dim = deepUMQA.VOXEL_FEATURE_DIM if use_voxel else 0
+        node_dim = sample["1d"].shape[-1] + voxel_dim
         pair_dim = sample["2d"].shape[1]
         num_bins = len(train_decoys.digits) + 1
         net = deepUMQA.GraphFeatureNet(
@@ -144,6 +152,7 @@ def main():
             pair_in_dim=pair_dim,
             num_bins=num_bins,
             neighbor_cutoff=args.graph_neighbor_cutoff,
+            use_voxel=use_voxel,
         )
     rdevreModel = False
     
@@ -210,7 +219,10 @@ def main():
             else:
                 pair_feats = f2d.squeeze(0)
                 dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(
-                    f1d.unsqueeze(0), pair_feats.unsqueeze(0)
+                    f1d.unsqueeze(0),
+                    pair_feats.unsqueeze(0),
+                    idx=idx if use_voxel else None,
+                    val=val if use_voxel else None,
                 )
                 lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
             Esto_Loss = torch.nn.CrossEntropyLoss()
@@ -270,7 +282,10 @@ def main():
                     else:
                         pair_feats = f2d.squeeze(0)
                         dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(
-                            f1d.unsqueeze(0), pair_feats.unsqueeze(0)
+                            f1d.unsqueeze(0),
+                            pair_feats.unsqueeze(0),
+                            idx=idx if use_voxel else None,
+                            val=val if use_voxel else None,
                         )
                         lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
 
