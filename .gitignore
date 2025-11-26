@@ -13,7 +13,7 @@ logs/
 *.npz
 *.npy
 *.zip
-
+*.txt
 # CSV는 상황 따라 선택
 logs/*.csv
 result/*.csv

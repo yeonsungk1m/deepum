@@ -1,3 +1,0 @@
-[WARN] perturbation failed for 1a1x_A: type object 'PDBIO' has no attribute 'Select'
-[RUN] hhblits -i "data/msa/1a1x_A.fa" -oa3m "data/msa/1a1x_A.a3m" -d "/data7/yeonsungkim/DeepUMQA-main/data/db/uniclust30_2018_08/uniclust30_2018_08" -n 3 -e 1e-3 -maxfilt 500000 -neffmax 20 -cov 0.5 -qid 0 -cpu 2
-

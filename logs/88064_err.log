@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/data7/yeonsungkim/DeepUMQA-main/scripts/make_decoys_perturb.py", line 37, in <module>
-    class ChainSelect(PDBIO.Select):
-AttributeError: type object 'PDBIO' has no attribute 'Select'

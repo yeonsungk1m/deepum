@@ -247,7 +247,7 @@ def main():
             sys.stdout.write("\rEpoch: [%2d/%2d], Batch: [%2d/%2d], loss: %.2f, dev-loss: %.2f, lddt-loss: %.2f, mask: %.2f"
                              %(epoch+1, epochs, i+1, len(train_decoys),
                                temp_loss["total"][-1], temp_loss["dev"][-1], temp_loss["lddt"][-1], temp_loss["mask"][-1]))
-            file1 = open("/data7/yeonsungkim/DeepUMQA-main/train.txt",'a')
+            file1 = open("/data7/yeonsungkim/deepum_graph/train.txt",'a')
             file1.write("\rEpoch: [%2d/%2d], Batch: [%2d/%2d], loss: %.2f, dev-loss: %.2f, lddt-loss: %.2f, mask: %.2f"
                              %(epoch+1, epochs, i+1, len(train_decoys),
                                temp_loss["total"][-1], temp_loss["dev"][-1], temp_loss["lddt"][-1], temp_loss["mask"][-1]))
@@ -309,7 +309,7 @@ def main():
                              %(epoch+1, epochs, i+1, len(valid_decoys),
                                temp_loss["total"][-1], temp_loss["dev"][-1], temp_loss["lddt"][-1], temp_loss["mask"][-1]))
 
-                    file2 = open("/data7/yeonsungkim/DeepUMQA-main/valid.txt",'a')
+                    file2 = open("/data7/yeonsungkim/deepum_graph/valid.txt",'a')
                     file2.write("\rEpoch: [%2d/%2d], Batch: [%2d/%2d], loss: %.2f, dev-loss: %.2f, lddt-loss: %.2f, mask: %.2f"
                              %(epoch+1, epochs, i+1, len(valid_decoys),
                                temp_loss["total"][-1], temp_loss["dev"][-1], temp_loss["lddt"][-1], temp_loss["mask"][-1]))
