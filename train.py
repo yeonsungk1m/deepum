@@ -208,7 +208,10 @@ def main():
                 dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
                 lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
             else:
-                dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(f1d.unsqueeze(0), f2d.unsqueeze(0))
+                pair_feats = f2d.squeeze(0)
+                dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(
+                    f1d.unsqueeze(0), pair_feats.unsqueeze(0)
+                )
                 lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
             Esto_Loss = torch.nn.CrossEntropyLoss()
             Mask_Loss = torch.nn.BCEWithLogitsLoss()
@@ -265,7 +268,10 @@ def main():
                         dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(idx, val, f1d, f2d)
                         lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
                     else:
-                        dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(f1d.unsqueeze(0), f2d.unsqueeze(0))
+                        pair_feats = f2d.squeeze(0)
+                        dev_pred, mask_pred, lddt_pred, (dev_logits, mask_logits) = net(
+                            f1d.unsqueeze(0), pair_feats.unsqueeze(0)
+                        )
                         lddt_true = deepUMQA.calculate_LDDT(dev_1hot_true[0], mask_true[0])
 
                     Esto_Loss = torch.nn.CrossEntropyLoss()
