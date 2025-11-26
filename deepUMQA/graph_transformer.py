@@ -20,6 +20,9 @@ Node features (per-residue)
   Meiler features) plus USR shape signatures give per-residue evolutionary and
   shape context. These were already concatenated into ``prop`` during
   featurization.
+- Optionally, a pooled 3D voxel descriptor (mirroring the original 3D CNN
+  stem) is concatenated so voxelized atomic neighborhoods can inform the
+  graph encoder.
 
 Edge features (pairwise)
 ------------------------
@@ -60,6 +63,10 @@ import torch.nn.functional as F
 from deepUMQA.mymodel import calculate_LDDT
 
 
+# Size of the pooled voxel descriptor produced by :class:`VoxelEncoder`.
+VOXEL_FEATURE_DIM = 640
+
+
 def invert_dist_transform(x: torch.Tensor, *, cutoff: float = 4.0, scaling: float = 3.0) -> torch.Tensor:
     """Invert ``dist_transform``/``transform`` used during featurization.
 
@@ -93,6 +100,76 @@ def floyd_warshall(adj: torch.Tensor) -> torch.Tensor:
     for k in range(N):
         dist = torch.minimum(dist, dist[:, :, k:k+1] + dist[:, k:k+1, :])
     return dist
+
+
+def _scatter_nd(indices: torch.Tensor, updates: torch.Tensor, shape) -> torch.Tensor:
+    """Scatter sparse voxel values into a dense tensor.
+
+    This mirrors the helper used by the original 3D CNN backbone so that we can
+    reuse the same voxel featurization path for the graph model. ``indices`` is
+    expected to contain ``(residue, x, y, z, channel)`` columns, and ``updates``
+    stores the corresponding trilinear interpolation weights.
+    """
+
+    device = updates.device
+
+    out = torch.zeros(int(torch.prod(torch.tensor(shape))), device=device)
+    multipliers = torch.as_tensor([int(torch.prod(torch.tensor(shape[i + 1 :]))) for i in range(len(shape))], device=device)
+
+    flat_idx = (indices.long() * multipliers.unsqueeze(0)).sum(dim=1)
+    out = out.scatter_add(0, flat_idx, updates)
+    return out.view(shape)
+
+
+class VoxelEncoder(nn.Module):
+    """Convert residue-centric voxel grids into fixed-length descriptors.
+
+    The encoder mirrors the early 3D-convolutional stem of the original
+    DeepUMQA model (three Conv3d layers followed by average pooling), producing
+    a 640-dimensional vector per residue. These descriptors can be concatenated
+    with the existing 1D node features before projection.
+    """
+
+    def __init__(self, *, num_restype: int = 20, grid_size: int = 24, out_dim: int = VOXEL_FEATURE_DIM):
+        super().__init__()
+        self.num_restype = num_restype
+        self.grid_size = grid_size
+        self.out_dim = out_dim
+
+        self.retype = nn.Conv3d(num_restype, 20, 1, padding=0, bias=False)
+        self.conv3d_1 = nn.Conv3d(20, 20, 3, padding=0, bias=True)
+        self.conv3d_2 = nn.Conv3d(20, 30, 4, padding=0, bias=True)
+        self.conv3d_3 = nn.Conv3d(30, 10, 4, padding=0, bias=True)
+        self.pool3d_1 = nn.AvgPool3d(kernel_size=4, stride=4, padding=0)
+
+    def forward(self, idx: torch.Tensor, val: torch.Tensor) -> torch.Tensor:
+        """Encode sparse voxel inputs into (B, N, ``out_dim``) descriptors."""
+
+        if idx.dim() == 2:
+            idx = idx.unsqueeze(0)
+            val = val.unsqueeze(0)
+
+        batch_voxels = []
+        for b in range(idx.size(0)):
+            # Residue count is encoded in the first column of ``idx``.
+            nres = int(idx[b, :, 0].max().item()) + 1
+            grid = _scatter_nd(
+                idx[b],
+                val[b],
+                (nres, self.grid_size, self.grid_size, self.grid_size, self.num_restype),
+            )
+            grid = grid.permute(0, 4, 1, 2, 3)
+
+            out_retype = self.retype(grid)
+            out_conv3d_1 = F.elu(self.conv3d_1(out_retype))
+            out_conv3d_2 = F.elu(self.conv3d_2(out_conv3d_1))
+            out_conv3d_3 = F.elu(self.conv3d_3(out_conv3d_2))
+            out_pool3d_1 = self.pool3d_1(out_conv3d_3)
+
+            flattened = torch.flatten(out_pool3d_1.permute(0, 2, 3, 4, 1), start_dim=1)
+            batch_voxels.append(flattened)
+
+        return torch.stack(batch_voxels, dim=0)
 
 
 class DynamicAttnBiasBuilder(nn.Module):
@@ -254,6 +331,8 @@ class GraphFeatureNet(nn.Module):
         use_distance_bias: bool = True,
         distance_gamma_init: float = 0.8,
         vnode_spd_mode: str = "replace",
+        use_voxel: bool = True,
+        voxel_restype: int = 20,
     ):
         super().__init__()
         self.d_model = d_model
@@ -262,9 +341,14 @@ class GraphFeatureNet(nn.Module):
         self.distance_cutoff = distance_cutoff
         self.distance_scaling = distance_scaling
 
-        self.node_proj = nn.Linear(node_in_dim, d_model)
+        self.use_voxel = use_voxel
+        voxel_dim = VOXEL_FEATURE_DIM if use_voxel else 0
+        self.node_proj = nn.Linear(node_in_dim + voxel_dim, d_model)
         self.pair_proj = nn.Linear(pair_in_dim, d_model)
         self.cls = nn.Parameter(torch.randn(1, 1, d_model) * 0.02)
+
+        if use_voxel:
+            self.voxel_encoder = VoxelEncoder(num_restype=voxel_restype)
 
         self.bias_builder = DynamicAttnBiasBuilder(
             hard_mask=False,
@@ -292,14 +376,17 @@ class GraphFeatureNet(nn.Module):
     def _symmetrize(self, x: torch.Tensor) -> torch.Tensor:
         return 0.5 * (x + x.transpose(-1, -2))
 
-    def forward(self, node_feats: torch.Tensor, pair_feats: torch.Tensor):
+    def forward(self, node_feats: torch.Tensor, pair_feats: torch.Tensor, *, idx: Optional[torch.Tensor] = None, val: Optional[torch.Tensor] = None):
         """Forward pass.
 
         Args:
             node_feats: (B, N, F1) node features from the dataset (angles + one-body
-                terms + properties).
+                terms + properties). When ``use_voxel`` is True, this tensor will be
+                concatenated with voxel descriptors derived from ``idx``/``val``.
             pair_feats: (B, C, N, N) pairwise features from the dataset; channel 0
                 is assumed to be the distance map (after ``dist_transform``).
+            idx / val: Sparse voxel indices/values encoding residue-local grids;
+                required when voxel features are enabled.
         Returns:
             deviation_prediction: (B, num_bins, N, N)
             mask_prediction: (B, N, N)
@@ -312,6 +399,17 @@ class GraphFeatureNet(nn.Module):
 
         B, C, N, _ = pair_feats.shape
         device = node_feats.device
+
+        if self.use_voxel:
+            if idx is None or val is None:
+                raise ValueError("Voxel features requested but idx/val tensors were not provided")
+
+            voxel_feats = self.voxel_encoder(idx.to(device), val.to(device))
+            if voxel_feats.shape[1] != N:
+                raise ValueError(
+                    f"Voxel descriptor residue count {voxel_feats.shape[1]} does not match node features ({N})"
+                )
+            node_feats = torch.cat([node_feats, voxel_feats], dim=-1)
 
         # Prepare adjacency & distance bias from the first channel (CB–CB distance)
         dist_feat = pair_feats[:, 0]
