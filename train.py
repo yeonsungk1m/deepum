@@ -159,7 +159,7 @@ def main():
     
     if isfile(join(name, "model.pkl")):
         if not args.silent: print("checkpoint")
-        checkpoint = torch.load(join(name, "model.pkl"))
+        checkpoint = torch.load(join(name, "model.pkl"),weights_only=False)
         net.load_state_dict(checkpoint["model_state_dict"])
         epoch = checkpoint["epoch"] + 1
         train_loss = checkpoint["train_loss"]
