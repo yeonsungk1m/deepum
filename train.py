@@ -185,7 +185,7 @@ def main():
     
     optimizer = optim.Adam(net.parameters(), lr=0.0005)
     if rdevreModel:
-        checkpoint = torch.load(join(name, "model.pkl"))
+        checkpoint = torch.load(join(name, "model.pkl"), weights_only=False)
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 
     start_epoch = epoch
